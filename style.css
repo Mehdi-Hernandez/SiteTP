@@ -163,47 +163,58 @@ input{
     width: 50px;
 }
 
-.bleu{
+.padide div{
     display: inline-block;
+    float: left;
     background-color: lightblue;
-    width: 25%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 600px;
     border-radius: 20px;
-    margin-bottom: 30px;
+    height: 200px;
+}
+
+.bleu{
     
 }
 
+/**
 #A{
     float: right;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 #B{
     float: Left;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 #C{
     float: right;
+    margin: 0;
+    margin-bottom: 20px;
 }
-
+**/
 .blanc{
-    display: inline-block;
-    background-color: lightblue;
-    width: 25%;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 20px;
-    margin-bottom: 30px;
+
 }
 
+/**
 #AA{
     float: Left;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 #BB{
     float: right;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 #CC{
     float: Left;
+    margin: 0;
+    margin-bottom: 20px;
 }
+**/
