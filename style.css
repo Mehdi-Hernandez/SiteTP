@@ -161,19 +161,16 @@ input{
 
 #second img{
     width: 50px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.padide div{
-    display: inline-block;
-    float: left;
+.bleu{
     background-color: lightblue;
     width: 600px;
     border-radius: 20px;
     height: 200px;
-}
-
-.bleu{
-    
+    padding: 0px;
 }
 
 /**
@@ -196,7 +193,20 @@ input{
 }
 **/
 .blanc{
+    background-color: lightblue;
+    width: 600px;
+    border-radius: 20px;
+    height: 200px;
+    padding: 0px;
+}
 
+table{
+    margin-left: 20%;
+}
+
+table td{
+    margin: 0px;
+    padding: 0px;
 }
 
 /**
