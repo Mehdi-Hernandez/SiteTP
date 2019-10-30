@@ -1,3 +1,16 @@
+button {
+    border-radius: 45px;
+    height: 40px;
+    width: 120px;
+    border: 1px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+p,a,h1,h2,h3{
+    font-family: apple-system,system-ui,BlinkMacSystemFont,Roboto,Arial, sans-serif;
+}
+
 .navbar{
     padding: 0px;
     width: 100%;
@@ -26,7 +39,8 @@
     height: 40px;
     width: 120px;
     border: 1px;
-    background-color: cornflowerblue; 
+    background-color: cornflowerblue;
+    color: white;
 }
 
 .content{
@@ -35,9 +49,10 @@
 
 input{
     border-radius:45px;
-    height: 50px;
-    padding: 0px;
-    margin-right: -40px;
+    height: 48px;
+    width: 400px;
+    padding-left: 20px;
+    margin-right: -60px;
     border:none;
     box-shadow: 1px 1px 12px #555;
 }
@@ -48,4 +63,147 @@ input{
     width: 150px;
     border: none;
     background-color: cornflowerblue; 
+}
+
+#center img{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.change{
+    
+}
+
+.change #first{
+    display: inline-block
+    
+}
+
+.change #first p{
+    font-size: 20px;
+    width: 380px;
+}
+
+.change img{
+    float: left;
+    width: 30%;
+    margin-left: 20%;
+    margin-right: 5%;
+    padding: 0%;
+}
+
+.change #note{
+    display: visible;
+    height: 0%;
+    overflow: hidden;
+}
+
+.change #wiki{
+    display: visible;
+    height: 0px;
+    overflow: hidden;
+}
+
+.change #project{
+    display: visible;
+    height: 0px;
+    overflow: hidden;
+}
+
+#activate-un{display:none}
+#activate-deux{display:none}
+#activate-trois{display:none}
+
+#un {
+    height: 50px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+#deux {
+    height: 50px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+#trois {
+    height: 50px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+
+#activate-un:checked ~ label
+#un{
+    height: 200px;
+    background-color: #74b9ff;
+}
+.change #note{
+    display: visible;
+    height: 100%;
+    overflow: hidden;
+}
+
+#activate-deux:checked ~ label
+#deux{
+    height: 200px;
+    background-color: #74b9ff;
+}
+
+#activate-trois:checked ~ label
+#trois{
+    height: 200px;
+    background-color: #74b9ff;
+}
+
+#logo{
+    margin-top: 15%;
+    text-align: center;
+}
+
+#second img{
+    width: 50px;
+}
+
+.bleu{
+    display: inline-block;
+    background-color: lightblue;
+    width: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#A{
+    float: right;
+}
+
+#B{
+    float: Left;
+}
+
+#C{
+    float: right;
+}
+
+.blanc{
+    display: inline-block;
+    background-color: lightblue;
+    width: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#AA{
+    float: Left;
+}
+
+#BB{
+    float: right;
+}
+
+#CC{
+    float: Left;
 }
